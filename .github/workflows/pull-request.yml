@@ -17,7 +17,7 @@ jobs:
         python-version: ["3.9", "3.10", "3.11", "3.12"]
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Test if changes are in not ignored paths
         id: are-non-ignored-files-changed
         uses: tj-actions/changed-files@v45
